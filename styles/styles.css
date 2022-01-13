@@ -11,7 +11,8 @@ main {
   background-color: #ff8d26;
   height: 500px;
 }
-.fa-plus-circle {
+.fa-plus-circle,
+.fa-minus-circle {
   color: black;
   font-size: 25px;
 }
