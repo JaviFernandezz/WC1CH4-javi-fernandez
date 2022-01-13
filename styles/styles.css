@@ -44,3 +44,54 @@ h1 {
   align-content: center;
   padding: 15px;
 }
+
+.products-container {
+  display: flex;
+  padding: 15px;
+  flex-direction: column;
+}
+
+.products-container_checkbox {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: space-around;
+}
+
+.products-container_names {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  justify-content: space-around;
+}
+
+span:nth-child(2n + 1) {
+  text-decoration: line-through;
+}
+
+.products-container_prices {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.fa-square {
+  font-size: 15px;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+}
+
+.products-container_first {
+  display: flex;
+  width: 100px;
+  justify-content: flex-start;
+}
