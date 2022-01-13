@@ -9,6 +9,7 @@ body {
 
 .fa-plus-circle {
   color: black;
+  font-size: 25px;
 }
 
 .header {
@@ -33,4 +34,13 @@ h1 {
 
 .bold {
   font-weight: bold;
+}
+
+.products-bought {
+  background-color: #f87400;
+  display: flex;
+  height: 25px;
+  justify-content: space-between;
+  align-content: center;
+  padding: 15px;
 }
