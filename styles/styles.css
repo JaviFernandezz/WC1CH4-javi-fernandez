@@ -7,6 +7,10 @@ body {
     Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
+main {
+  background-color: #ff8d26;
+  height: 500px;
+}
 .fa-plus-circle {
   color: black;
   font-size: 25px;
@@ -49,6 +53,7 @@ h1 {
   display: flex;
   padding: 15px;
   flex-direction: column;
+  height: 200px;
 }
 
 .products-container_checkbox {
@@ -73,12 +78,13 @@ span:nth-child(2n + 1) {
   display: flex;
   flex-direction: row;
   width: 100px;
-  justify-content: space-between;
+  justify-content: flex-end;
   align-items: flex-start;
 }
 
 .fa-square {
   font-size: 15px;
+  margin-right: 15px;
 }
 
 .line-through {
@@ -88,10 +94,31 @@ span:nth-child(2n + 1) {
 .product {
   display: flex;
   justify-content: space-between;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .products-container_first {
   display: flex;
   width: 100px;
   justify-content: flex-start;
+}
+
+.line {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  border: 1px solid aliceblue;
+  background-color: aliceblue;
+  width: 360px;
+}
+
+.result {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.fa-times {
+  margin-left: 15px;
 }
