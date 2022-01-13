@@ -32,6 +32,7 @@ h1 {
 h2 {
   font-size: 16px;
   margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .header_nav {
@@ -140,7 +141,7 @@ span:nth-child(2n + 1) {
   display: flex;
   flex-direction: column;
   height: 200px;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 input {
@@ -149,6 +150,11 @@ input {
   height: 30px;
 }
 
+.form-containt__symbol {
+  position: relative;
+  right: -160px;
+  top: -28px;
+}
 .name-price {
   font-size: 10px;
 }
@@ -157,7 +163,6 @@ input {
   border: 0;
   width: 75px;
   height: 30px;
-  margin-top: 15px;
   background-color: #5d81d1;
   color: white;
 }
