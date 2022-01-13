@@ -11,27 +11,35 @@
     ></script>
   </head>
   <body>
-    <main>
-       <main>
-      <header class="header">
-        <h1>Lista de la compra</h1>
-        <ul class="header_nav">
-          <li>Principal</li>
-          <li class="bold">Lista</li>
-          <li>Acerca de</li>
-        </ul>
-      </header>
+    <header class="header">
+      <h1>Lista de la compra</h1>
+      <ul class="header_nav">
+        <li>Principal</li>
+        <li class="bold">Lista</li>
+        <li>Acerca de</li>
+      </ul>
+    </header>
 
+    <main>
       <section class="products-bought">
-       <i class="fas fa-minus-circle"></i>
+        <i class="fas fa-minus-circle"></i>
         <p>2/3 comprados</p>
       </section>
 
-      <section class="form">
+      <section class="form-container">
         <h2>Editar artículo</h2>
-        
 
-
+        <form class="form-containt" action="form-page" method="post">
+          <label for="name">Nombre:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="nombre de tu producto"
+          />
+          <label for="price">Precio:</label>
+          <input type="text" id="price" name="price" placeholder="€" />
+        </form>
       </section>
     </main>
   </body>

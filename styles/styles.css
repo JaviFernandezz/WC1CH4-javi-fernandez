@@ -123,3 +123,17 @@ span:nth-child(2n + 1) {
 .fa-times {
   margin-left: 15px;
 }
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-containt {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border: 0;
+}
