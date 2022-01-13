@@ -11,7 +11,8 @@ main {
   background-color: #ff8d26;
   height: 500px;
 }
-.fa-plus-circle {
+.fa-plus-circle,
+.fa-minus-circle {
   color: black;
   font-size: 25px;
 }
@@ -26,6 +27,12 @@ main {
 
 h1 {
   font-size: 18px;
+}
+
+h2 {
+  font-size: 16px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .header_nav {
@@ -121,4 +128,41 @@ span:nth-child(2n + 1) {
 
 .fa-times {
   margin-left: 15px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  height: 200px;
+}
+
+.form-containt {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-between;
+}
+
+input {
+  border: 0;
+  width: 150px;
+  height: 30px;
+}
+
+.form-containt__symbol {
+  position: relative;
+  right: -160px;
+  top: -28px;
+}
+.name-price {
+  font-size: 10px;
+}
+
+.form-container__button {
+  border: 0;
+  width: 75px;
+  height: 30px;
+  background-color: #5d81d1;
+  color: white;
 }

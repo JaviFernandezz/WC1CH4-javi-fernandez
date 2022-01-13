@@ -4,7 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Editar articulo</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/styles/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/f39141734b.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <h1>Lista de la compra</h1>
+      <ul class="header_nav">
+        <li>Principal</li>
+        <li class="bold">Lista</li>
+        <li>Acerca de</li>
+      </ul>
+    </header>
+
+    <main>
+      <section class="products-bought">
+        <i class="fas fa-minus-circle"></i>
+        <p>2/3 comprados</p>
+      </section>
+
+      <section class="form-container">
+        <h2>Editar artículo</h2>
+
+        <form class="form-containt" action="form-page" method="post">
+          <label class="name-price" for="name">Nombre:</label>
+          <input type="text" id="name" name="name" />
+          <label class="name-price" for="price">Precio:</label>
+          <input
+            type="number"
+            class="form-containt__price-input"
+            id="price"
+            name="price"
+          />
+          <span class="form-containt__symbol">€</span>
+
+          <button class="form-container__button">Modificar</button>
+        </form>
+      </section>
+    </main>
+  </body>
 </html>
